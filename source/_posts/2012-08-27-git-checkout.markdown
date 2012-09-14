@@ -40,6 +40,16 @@ git checkout 20f99
 ```
 When we checkout a commit, we are actually not in any branch.
 
+## Checkout tag
+We can give name to our commits by using git's tag feature. We can set a tag to the current commit by using 
+```bash
+git tag -a tag_name
+```
+It would be so handy if we want to go to a specific tag without checking the history. We can simply checkout this commit by using the tag name
+```bash
+git checkout tag_name
+```
+
 ## Checkout partial files
 
 What if we want to checkout partial files from other branches or commits? Cherry-pick would be an common option, but we can make use the checkout command. Suppose we are in master branch, and we want to bring the index.html file from develop branch. We can do this
