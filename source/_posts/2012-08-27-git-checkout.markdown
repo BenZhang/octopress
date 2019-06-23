@@ -5,7 +5,7 @@ date: 2012-08-27 11:06
 comments: false
 categories: GIT
 ---
-Git is a veryd powerfully version control tool. Here is a summary how to make use of git checkout.
+Git is a very powerfully version control tool. Here is a summary how to make use of git checkout.
 ## Switch branch
 When we type 
 ```bash
